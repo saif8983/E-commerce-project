@@ -4,6 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
+.App.js
+.bakenData.js
+.button.js
+.clock.js
+.input.js
+.inputClasscomponent.js
 
 # testing
 /coverage
