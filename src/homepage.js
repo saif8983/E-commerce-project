@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link,Routes}
 import "./App.css"
 import Login from "./login";
 import Signup from "./signup";
+import Details from "./Detauls";
 const Navbar=()=>{
     return(
     <>
@@ -16,6 +17,7 @@ const Navbar=()=>{
     <Routes>
             <Route exact path="login" element={<Login/>} />
           <Route exact path="signUp" element={<Signup />} /> 
+          <Route path='/details' element={<Details />} />
           </Routes>
    
      </Router>
